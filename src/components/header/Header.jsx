@@ -8,7 +8,7 @@ import './header.css'
 
 const Header = () => {
     const[isOpen, setIsOpen]= useState(false);
-const toggleMenu =()=>{
+    const toggleMenu =()=>{
     setIsOpen(!isOpen);
 }
   return (
@@ -57,7 +57,7 @@ const toggleMenu =()=>{
     <section>
         <div className="container">
             <div className="content">
-                <h2>Responsive navbar</h2>
+                <h2></h2>
             </div>
         </div>
     </section>
