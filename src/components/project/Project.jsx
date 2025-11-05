@@ -1,4 +1,5 @@
 import React from 'react'
+import './project.css'
 
 function Project (){
 const projects =[
@@ -29,38 +30,64 @@ const projects =[
   {
      id: 5,
     title: "project5",
-      image: "./images/project_picture.jpg",
+    image: "./images/project_picture.jpg",
+    name: "React Project"
+  
+  },
+  {
+     id: 6,
+    title: "project6",
+    image: "./images/project_picture.jpg",
+    name: "React Project"
+  
+  },
+  {
+     id: 7,
+    title: "project7",
+    image: "./images/project_picture.jpg",
+    name: "React Project"
+  
+  },
+  {
+     id: 8,
+    title: "project8",
+    image: "./images/project_picture.jpg",
     name: "React Project"
   
   }
+
+  
 ]
 
   return (
   <>
   <div className="project-container">
+
      <div className="project-header">
       <h2>My Projects</h2>
-      <h2>Here are My Some Projects</h2>
+      <p>Here are My Some Projects</p>
      </div>
-     <div className="gallary">
-      <div>
-        {
+
+     <div className="gallery">
+              {
         projects.map(project => (
-          <div key ={projects.id} className="gallary-item">
-            <div className="gallary-item-wrapper">
+          <div key ={projects.id} className="gallery-item">
+            
+            <div className="gallery-item-wrapper">
+              
                   <img
                   src= {project.image}
                   alt= {project.title}
                   loading='lazy network'
                   />
+ <h2 className='item-name'>{project.name}</h2>
+                  
             </div>
-            <div className="gallary-details">
-              <h2>{project.name}</h2>
-            </div>
+            
           </div>
            ))} 
       
-      </div>
+           
      </div>
   </div>
   

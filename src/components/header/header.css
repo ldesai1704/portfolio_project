@@ -42,12 +42,12 @@ padding: 0 ;
 .container ul li a:hover{
     background-color: #ecf0f1;
 }
-.content{
+/*.content{
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, 0%);   
-}
+}*/
 .content h2{
     font-size: 4rem;
 }

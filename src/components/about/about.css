@@ -1,0 +1,45 @@
+.about-section {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  color: #212a3c;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1a202c;
+}
+
+.about-intro,
+.about-body {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: #007bff;
+  font-weight: 600;
+}
+
+strong {
+  color: #2d3748;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-intro,
+  .about-body {
+    font-size: 1rem;
+  }
+}
