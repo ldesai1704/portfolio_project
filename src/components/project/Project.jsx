@@ -6,53 +6,53 @@ const projects =[
   {
     id: 1,
     title: "project1",
-      image: "./images/project_picture.jpg",
+      image: "./images/react.png",
     name: "React Project"
   },
   {
      id: 2,
     title: "project2",
-      image: "./images/project_picture.jpg",
+      image: "./images/python.png",
     name: "Python Project"
   },
   {
     id: 3,
     title: "project3",
-    image: "./images/project_picture.jpg",
+    image: "./images/javascript.png",
     name: "JavaScript Project"
   },
   {
      id: 4,
     title: "project4",
-  image: "./images/project_picture.jpg",
+  image: "./images/react.png",
       name: "React Project"
   },
   {
      id: 5,
     title: "project5",
-    image: "./images/project_picture.jpg",
-    name: "React Project"
+    image: "./images/python.png",
+    name: "Python Project"
   
   },
   {
      id: 6,
     title: "project6",
-    image: "./images/project_picture.jpg",
+    image: "./images/react.png",
     name: "React Project"
   
   },
   {
      id: 7,
     title: "project7",
-    image: "./images/project_picture.jpg",
-    name: "React Project"
+    image: "./images/python.png",
+    name: "Python Project"
   
   },
   {
      id: 8,
     title: "project8",
-    image: "./images/project_picture.jpg",
-    name: "React Project"
+    image: "./images/javascript.png",
+    name: "Javascript Project"
   
   }
 
