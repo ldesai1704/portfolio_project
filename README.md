@@ -19,9 +19,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 ## 📸 Screenshots
 
-![Home Page](./screenshots/home.png)  
-![Projects Page](./screenshots/projects.png)  
-![Contact Page](./screenshots/contact.png)
+![Home Page](./screenshot/home.png)  
 
 ## 🎯 Installation & Setup
 
