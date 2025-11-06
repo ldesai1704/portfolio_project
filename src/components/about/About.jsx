@@ -17,7 +17,7 @@ const About = () => {
           I’ve built a solid foundation in software development through
           academic projects and self-learning, gaining hands-on experience with
           technologies like <strong> Java, C++, React, MySQL,</strong> and{" "}
-          <strong>MongoDB</strong>. My studies have helped me strengthen my
+          <strong>Firebase</strong>. My studies have helped me strengthen my
           problem-solving skills, logical thinking, and understanding of modern
           software design principles.
         </p>
