@@ -19,7 +19,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 ## 📸 Screenshots
 
-![Home Page](./screenshot/home.png)  
+![Home Page](https://github.com/ldesai1704/portfolio_project/blob/main/src/screenshot/home_ss.png)  
 
 ## 🎯 Installation & Setup
 
