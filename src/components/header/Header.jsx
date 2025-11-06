@@ -13,11 +13,12 @@ const Header = () => {
 }
   return (
    <>
+   
    <header>
          <div className='container'>
         <nav>
         <div className='logo'>
-            <h2>Designer Studio</h2>
+            <h2>Labdhi Desai</h2>
         </div>
         <div>
             <ul className={isOpen ? "nav-link active" : "nav-link"}>

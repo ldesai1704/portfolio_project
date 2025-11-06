@@ -1,11 +1,11 @@
 header{
-    background: rgb(171, 159, 159);
+    background:#f5f7fa;
     padding: 0;
 
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .container{
@@ -21,18 +21,19 @@ padding: 0 ;
 }
 .container .nav-link{
     display: flex;
+    color: #fff;
 }
 .container nav .logo{
-    color: #212a3c;
+    color: #4b7bec;
     font-size: 1.2rem;
-    cursor: pointer;
+    cursor: false;
 }
 .container .nav-link li{
     list-style: none;
     margin: 0 0.5rem;
 }
 .container ul li a{
-    color: #374269;
+   
     font-size: 1.3rem;
     padding: 0.7rem;
     display: block;
@@ -40,7 +41,7 @@ padding: 0 ;
     
 }
 .container ul li a:hover{
-    background-color: #ecf0f1;
+    background-color: #4b7bec;
 }
 /*.content{
     position: absolute;

@@ -1,121 +1,135 @@
 
-/*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}*/
 
-body {
-  background-color: #f0f0f0;
-  color: #333;
-}
-
-/* =========================
-   Container
-========================= */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.home-container {
+    border: black;
   min-height: 100vh;
-  padding: 20px;
+  background: linear-gradient(135deg, #fef9f8, #f2f7ff);
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 
-/* =========================
-   Content
-========================= */
-.content {
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+.typing-text {
+  position: absolute;
+  top: 200px;
   text-align: center;
-  max-width: 800px;
+  font-size: 3.0rem;
+  font-weight: 650;
+  color: #26272a;
 }
 
-.content h3 {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
+
+/* Main layout */
+.home-content {
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 100%;
 }
 
-.content p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
+/* Text section */
+.home-text {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 2rem;
+}
+
+.home-text h2 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+  color: #2d2d2d;
+}
+
+.home-text .highlight {
+  color: #4b7bec; /* soft blue accent */
+}
+.home-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.home-text p {
+  font-size: 1.1rem;
   line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  color: #555;
 }
 
-/* =========================
-   Image
-========================= */
-.home-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 25px;
-  transition: transform 0.3s ease;
+/* Buttons */
+.home-buttons {
+  display: flex;
+  gap: 1rem;
 }
 
-.home-image:hover {
-  transform: scale(1.05);
-}
-
-/* =========================
-   Intro Section
-========================= */
-.intro p {
-  margin-bottom: 20px;
-}
-
-.read-more-btn {
-  background-color: #007bff;
-  color: white;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+.btn {
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
   font-size: 1rem;
-  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.read-more-btn:hover {
-  background-color: #0056b3;
-  transform: scale(1.05);
+.primary-btn {
+  background-color: #4b7bec;
+  color: #fff;
 }
 
-/* =========================
-   Welcome Animation
-========================= 
-.welcome-container {
+.primary-btn:hover {
+  background-color: #3867d6;
+}
+
+.secondary-btn {
+  border: 2px solid #4b7bec;
+  color: #4b7bec;
+}
+
+.secondary-btn:hover {
+  background-color: #4b7bec;
+  color: #fff;
+}
+
+/* Image section */
+.home-image {
+  flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-  overflow: hidden;
+  min-width: 300px;
 }
 
-.welcome-text {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #333;
-  opacity: 0;
-  transform: translateY(50px);
-  animation: fadeInUp 2s ease forwards;
+.home-image img {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(75, 123, 236, 0.15);
 }
 
-/* Keyframes for fade in + slide up 
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);
+/* Responsive design */
+@media (max-width: 900px) {
+  .home-content {
+    flex-direction: column-reverse;
+    text-align: center;
   }
-  50% {
-    opacity: 0.5;
-    transform: translateY(20px);
+
+  .home-text {
+    margin-right: 0;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+
+  .home-buttons {
+    justify-content: center;
   }
-}*/
+
+  .home-image img {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+}
