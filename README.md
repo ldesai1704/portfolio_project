@@ -26,6 +26,8 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 ## 🎯 Installation & Setup
 
 1. Clone this repository:  
-```bash
-git clone https://github.com/yourusername/portfolio.git
+
+git clone https://github.com/ldesai1704/portfolio_project.git
+
+
 
