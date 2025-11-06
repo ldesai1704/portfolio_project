@@ -27,6 +27,15 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 git clone https://github.com/ldesai1704/portfolio_project.git
 
+## 🌟 Live Demo
+[click here](https://github.com/ldesai1704/portfolio_project)
+
+📫 Contact Me
+
+Email: labdhi1705@example.com
+LinkedIn: linkedin.com/in/yourusername
+
+
 
 
 
