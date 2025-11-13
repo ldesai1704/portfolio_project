@@ -1,8 +1,8 @@
-# 🌐 My Portfolio Website
+#  My Portfolio Website
 
 Welcome to my personal portfolio! This website showcases my skills, projects, and experience as a web developer. It’s built to be fully responsive, user-friendly, and visually appealing.
 
-## 🚀 Features
+##  Features
 
 - **About Me:** A section introducing myself and my skills
 - **Projects Showcase:** Highlights of my best work 
@@ -10,30 +10,38 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 - **Responsive Design:** Looks great on desktop, tablet, and mobile
 - **Smooth Animations:** Interactive UI using CSS & JavaScript
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6)
 - **Version Control:** Git & GitHub
 - **Hosting:** GitHub Pages
 - **Tools:** VS Code
 
-## 📸 Screenshots
+##  Screenshots
 
-![Home Page](https://github.com/ldesai1704/portfolio_project/blob/main/src/screenshot/home_ss.png)  
+![Home Page](./src/screenshot/home_ss.png)  
 
-## 🎯 Installation & Setup
+##  Installation & Setup
 
 1. Clone this repository:  
 
-git clone https://github.com/ldesai1704/portfolio_project.git
+https://github.com/ldesai1704/portfolio_project.git
 
-## 🌟 Live Demo
+##  Live Demo
 [click here](https://github.com/ldesai1704/portfolio_project)
 
-📫 Contact Me
+## Contact Me
 
 Email: labdhi1705@example.com
-LinkedIn: linkedin.com/in/yourusername
+
+## Testing
+ 
+ I used [this website](https://jigsaw.w3.org/css-validator)  to valid my CSS
+
+ To see Below: 
+![CSS](./src/screenshot/image.png)
+
+
 
 
 
