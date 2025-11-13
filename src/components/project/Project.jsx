@@ -1,57 +1,60 @@
 import React from 'react'
 import './project.css'
+import reactimg from "../../images/react.png"
+import pythonimg from "../../images/python.png"
+import javascriptimg from "../../images/javascript.png"
 
 function Project (){
 const projects =[
   {
     id: 1,
     title: "project1",
-      image: "./images/react.png",
+      image: reactimg,
     name: "React Project"
   },
   {
      id: 2,
     title: "project2",
-      image: "./images/python.png",
+      image: pythonimg,
     name: "Python Project"
   },
   {
     id: 3,
     title: "project3",
-    image: "./images/javascript.png",
+    image: javascriptimg,
     name: "JavaScript Project"
   },
   {
      id: 4,
     title: "project4",
-  image: "./images/react.png",
+  image: reactimg,
       name: "React Project"
   },
   {
      id: 5,
     title: "project5",
-    image: "./images/python.png",
+    image: pythonimg,
     name: "Python Project"
   
   },
   {
      id: 6,
     title: "project6",
-    image: "./images/react.png",
+    image: reactimg,
     name: "React Project"
   
   },
   {
      id: 7,
     title: "project7",
-    image: "./images/python.png",
+    image: pythonimg,
     name: "Python Project"
   
   },
   {
      id: 8,
     title: "project8",
-    image: "./images/javascript.png",
+    image: javascriptimg,
     name: "Javascript Project"
   
   }
@@ -71,7 +74,7 @@ const projects =[
      <div className="gallery">
               {
         projects.map(project => (
-          <div key ={projects.id} className="gallery-item">
+          <div key ={project.id} className="gallery-item">
             
             <div className="gallery-item-wrapper">
               

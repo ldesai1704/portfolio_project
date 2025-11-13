@@ -27,12 +27,14 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 https://github.com/ldesai1704/portfolio_project.git
 
+2. Installation:
+
+npm install
+
+npm start
+
 ##  Live Demo
-[click here](https://github.com/ldesai1704/portfolio_project)
-
-## Contact Me
-
-Email: labdhi1705@example.com
+[click here](https://ldesai1704.github.io/portfolio_project)
 
 ## Testing
  

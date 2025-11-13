@@ -1,5 +1,8 @@
 import React from 'react'
 import './home.css'
+import homepage from "../../images/home_page.png"
+import { Link } from "react-router-dom";
+
 import {ReactTyped} from "react-typed";
 const Home = () => {
   return (
@@ -25,14 +28,14 @@ const Home = () => {
             Explore my work, skills, and creative journey below.
           </p>
           <div className="home-buttons">
-            <a href="./project" className="btn primary-btn">View My Work</a>
-            <a href="./Contact" className="btn secondary-btn">Contact Me</a>
+            <Link to="/project" className="btn primary-btn">View My Work</Link>
+            <Link to="/contact" className="btn secondary-btn">Contact Me</Link>
           </div>
         </div>
 
         {/* Right side - Image section */}
         <div className="home-image">
-          <img src="./images/home_page.png" alt="Portfolio" />
+          <img src={homepage} alt="Portfolio" />
         </div>
 
       </div>
