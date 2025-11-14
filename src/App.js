@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/Header';
-import {BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from './components/home/Home';
 import Project from './components/project/Project';
 import About from './components/about/About';

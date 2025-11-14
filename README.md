@@ -12,7 +12,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 
 ##  Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript (ES6)
+- **Frontend:** HTML5, CSS3, JavaScript, React
 - **Version Control:** Git & GitHub
 - **Hosting:** GitHub Pages
 - **Tools:** VS Code
